@@ -1,0 +1,28 @@
+<div></div>
+<br>
+<br>
+<div class="container !direction !spacing">
+    <div class="form-group cin">
+      <label for="">Enter some text</label>
+      <input 
+      type="text"
+       name=""
+        id="in" 
+        class="form-control"
+         placeholder=""
+          aria-describedby="helpId"
+          (keyup)="ShowMeText($event)"
+          [(ngModel)]=inpval
+          >
+<!--[(ngModel)]=inpval work-->
+<!--[value]=inpval doesnot work-->
+<!--value={{inpval}} doesnot work-->
+
+<h6 class="cout">
+           text =>{{task1}} 
+         </h6>   
+         <button (click)="changetext()" class="btn btn-warning">Change The input text To Hello </button>
+         </div>
+    <br>
+    
+</div>

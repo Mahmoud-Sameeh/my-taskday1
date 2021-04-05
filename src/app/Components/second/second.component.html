@@ -1,0 +1,68 @@
+<div></div>
+<br>
+<div class="container !direction !spacing">
+   <div class="row">
+        <img width="40em" height="550em" src="{{imgdir}}">
+   </div>
+   <div class="row">
+    <div class="col">
+        <button class="btn btn-succes"  (click)="Prev()">Prev</button>
+    </div>
+    <div class="col">
+        <button class="btn btn-succes"  (click)="start()">start</button>
+   
+    </div>
+    <div class="col">
+        <button class="btn btn-succes"  (click)="stop()">stop</button>
+        
+    </div>
+   
+    <div class="col">
+        <button class="btn btn-succes text-center" (click)="next()">Next</button>
+   
+    </div>
+
+</div>
+
+    
+</div>
+
+
+
+
+<hr>
+<hr>
+<hr>
+<Marquee marquee-speed="fast" slide="slide" behavior="alternate" direction="right" >Mahmoud Ali Sameeh</Marquee>
+<p>second Components welcomes U</p>
+<hr>
+<marquee  truespeed="200" direction="up" width="500" height="200" behavior="alternate" style="border:solid">
+    <marquee  direction="right" behavior="alternate">
+      MAS
+    </marquee>
+  </marquee>
+  <hr>
+  <h1>{{welcomestatment}}</h1>
+  <h1><input type="text" value="{{welcomestatment}}"></h1>
+
+  <hr>
+
+  <img src="assets/12274155253_96385492a5_b.jp"> 
+
+<!-- HARD TWO WAY BINDING-->
+<input 
+type="text"
+[value]="twfield"
+(keyup)="binddata($event)"
+ placeholder="Enter Your Name"
+name="twname" id="twnameid">
+
+
+
+
+
+
+
+
+
+
