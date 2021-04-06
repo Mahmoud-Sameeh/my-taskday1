@@ -18,6 +18,8 @@ changetext(){
 }
 ShowMeText(e){
 this.task1=e.target.value;
+this.inpval=e.target.value;
+
 console.log(e.target.value)
 }
     ngOnInit(): void {

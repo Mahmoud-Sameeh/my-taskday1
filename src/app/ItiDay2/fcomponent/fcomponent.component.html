@@ -1,0 +1,12 @@
+<div>
+    <h1>Register</h1>
+
+    <input type="text" placeholder="name" [(ngModel)]="namee">
+    <input  type="text"  placeholder="Age" [(ngModel)]="age">
+
+        <small *ngIf="checkvalindation()" >Not Valid age please enter correct age</small>
+
+    <input type="button" [disabled]="attr" (click)="sender()" value="Add">
+    </div>
+
+  

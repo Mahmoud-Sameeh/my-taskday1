@@ -9,6 +9,10 @@ import { FourthComponent } from './Components/fourth/fourth.component';
 import { ParentComponent } from './Components/parent/parent.component';
 import { ChildComponent } from './Components/child/child.component';
 import { SiblingComponent } from './Components/sibling/sibling.component';
+import { FComponentComponent } from './ItiDay2/fcomponent/fcomponent.component';
+import { AllInOneComponent } from './ItiDay2/all-in-one/all-in-one.component';
+import { ScomponentComponent } from './ItiDay2/scomponent/scomponent.component';
+import { FatherComComponent } from './ItiDay2/father-com/father-com.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { SiblingComponent } from './Components/sibling/sibling.component';
     FourthComponent,
     ParentComponent,
     ChildComponent,
-    SiblingComponent
+    SiblingComponent,
+    FComponentComponent,
+    AllInOneComponent,
+    ScomponentComponent,
+    FatherComComponent
   ],
   imports: [
     BrowserModule,
