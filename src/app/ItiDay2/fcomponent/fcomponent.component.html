@@ -1,7 +1,8 @@
 <div>
     <h1>Register</h1>
-
+<label>enter a name(string)</label>
     <input type="text" placeholder="name" [(ngModel)]="namee">
+    <label>enter your age(number)</label>
     <input  type="text"  placeholder="Age" [(ngModel)]="age">
 
         <small *ngIf="checkvalindation()" >Not Valid age please enter correct age</small>
