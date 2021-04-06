@@ -4,8 +4,12 @@
     color: black;
     font-size: 50px;
     display: flex;
-    
+    flex-direction: column;
    }
 .col{
-   justify-self: right;
+}
+.tryit{
+   border: 2px red solid;
+   height: min-content;
+   width: min-content;
 }

@@ -6,13 +6,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SecondComponent } from './Components/second/second.component';
 import { FourthComponent } from './Components/fourth/fourth.component';
+import { ParentComponent } from './Components/parent/parent.component';
+import { ChildComponent } from './Components/child/child.component';
+import { SiblingComponent } from './Components/sibling/sibling.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SecondComponent,
     threeComponent,
-    FourthComponent
+    FourthComponent,
+    ParentComponent,
+    ChildComponent,
+    SiblingComponent
   ],
   imports: [
     BrowserModule,
